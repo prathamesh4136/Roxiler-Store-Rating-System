@@ -14,9 +14,9 @@ This project includes:
 ## ⭐ Home Page
 ![Home Page](https://github.com/prathamesh4136/Roxiler-Store-Rating-System/blob/main/Screenshot%202025-11-17%20085941.png?raw=true)
 
+## ⭐ Rating Page
+![Rating Page](https://github.com/prathamesh4136/Roxiler-Store-Rating-System/blob/main/Screenshot%202025-11-17%20090219.png?raw=true)
 
-⭐ Store Rating
-![Home Page](./screenshots/Rating.png)
 
 💡 Why Prisma?
 
