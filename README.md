@@ -11,8 +11,9 @@ This project includes:
 ✔ Beautiful UI using Next.js + TailwindCSS
 
 🚀 Project Screenshots
-⭐ Home Page 
-![Home Page](Screenshot 2025-11-17 085941.png)
+## ⭐ Home Page
+![Home Page](https://github.com/prathamesh4136/Roxiler-Store-Rating-System/blob/main/Screenshot%202025-11-17%20085941.png?raw=true)
+
 
 ⭐ Store Rating
 ![Home Page](./screenshots/Rating.png)
