@@ -11,8 +11,10 @@ This project includes:
 ✔ Beautiful UI using Next.js + TailwindCSS
 
 🚀 Project Screenshots
+
 ## ⭐ Home Page
 ![Home Page](https://github.com/prathamesh4136/Roxiler-Store-Rating-System/blob/main/Screenshot%202025-11-17%20085941.png?raw=true)
+
 
 ## ⭐ Rating Page
 ![Rating Page](https://github.com/prathamesh4136/Roxiler-Store-Rating-System/blob/main/Screenshot%202025-11-17%20090219.png?raw=true)
@@ -23,11 +25,16 @@ This project includes:
 Prisma is used because:
 
 ✅ Developer-friendly — no need to write long SQL queries
+
 ✅ Auto-generates the database client
+
 ✅ Supports migrations (prisma migrate)
+
 ✅ Strict schema ensures fewer bugs
+
 ✅ Super fast CRUD operations
-✅ Works perfectly with MySQL (required by Roxiler)
+
+✅ Works perfectly with MySQL
 
 Prisma allowed us to easily manage:
 
@@ -75,7 +82,9 @@ cd roxiler-backend
 npm install
 
 2️⃣ Configure MySQL Database
+
 Create a database:
+
 CREATE DATABASE roxiler;
 
 3️⃣ Create .env file
@@ -90,8 +99,7 @@ npx prisma migrate dev --name init
 npm start
 
 
-Backend runs at:
-👉 http://localhost:5000
+Backend runs at: 👉 http://localhost:5000
 
 🎨 Frontend Setup (roxiler-frontend)
 1️⃣ Install dependencies
@@ -101,40 +109,48 @@ npm install
 2️⃣ Start the development server
 npm run dev
 
-Frontend runs at:
-👉 http://localhost:3000
 
+Frontend runs at: 👉 http://localhost:3000
 
 🔐 Authentication Flow
-JWT used for all protected routes
-Token saved in browser cookies
-Frontend redirects based on role:
 
-Role	Redirect
+JWT is used for all protected routes.
+Token is saved in browser cookies.
+
+Role	Redirect Path
 admin	/admin/dashboard
 store-owner	/store-owner/ratings
 user	/user/stores
-
 🛠 Tech Stack
 Frontend
+
 Next.js 16
+
 React 19
+
 Tailwind CSS
+
 Axios
+
 js-cookie
 
 Backend
+
 Node.js
+
 Express
+
 Prisma ORM
+
 MySQL
+
 JSON Web Token
 
-📦 How to Build for Production
+📦 Build for Production
 Backend
 npm run build
 npm start
 
 Frontend
 npm run build
-npm star
+npm start
