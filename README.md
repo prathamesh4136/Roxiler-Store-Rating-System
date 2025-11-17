@@ -4,10 +4,15 @@ A complete store rating system built for the Roxiler Systems Internship Assignme
 This project includes:
 
 ✔ Admin Panel
+
 ✔ Store Owner Dashboard
+
 ✔ User Store Rating System
+
 ✔ Authentication with JWT
+
 ✔ Prisma ORM + MySQL
+
 ✔ Beautiful UI using Next.js + TailwindCSS
 
 🚀 Project Screenshots
@@ -93,9 +98,11 @@ DATABASE_URL="mysql://root:password@localhost:3306/roxiler"
 JWT_SECRET="roxiler_secret_key"
 
 4️⃣ Run Prisma migration
+
 npx prisma migrate dev --name init
 
 5️⃣ Start the server
+
 npm start
 
 
@@ -103,10 +110,13 @@ Backend runs at: 👉 http://localhost:5000
 
 🎨 Frontend Setup (roxiler-frontend)
 1️⃣ Install dependencies
+
 cd roxiler-frontend
+
 npm install
 
 2️⃣ Start the development server
+
 npm run dev
 
 
@@ -121,6 +131,7 @@ Role	Redirect Path
 admin	/admin/dashboard
 store-owner	/store-owner/ratings
 user	/user/stores
+
 🛠 Tech Stack
 Frontend
 
@@ -147,10 +158,15 @@ MySQL
 JSON Web Token
 
 📦 Build for Production
+
 Backend
+
 npm run build
+
 npm start
 
 Frontend
+
 npm run build
+
 npm start
