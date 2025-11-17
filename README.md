@@ -12,7 +12,7 @@ This project includes:
 
 🚀 Project Screenshots
 ⭐ Home Page 
-![Home Page](./screenshots/Home.png)
+![Home Page](Screenshot 2025-11-17 085941.png)
 
 ⭐ Store Rating
 ![Home Page](./screenshots/Rating.png)
